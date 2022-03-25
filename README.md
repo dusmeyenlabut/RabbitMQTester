@@ -1,5 +1,4 @@
-## Dependencies
-
+## Installation
 You must install RabbitMQ before you start to use app.
 
 You must create these environment variables before you start the app.
@@ -9,8 +8,6 @@ export RABBITMQHOST="myhostname"
 export RABBITPASSWORD="myusername"
 export RABBITUSERNAME="mysupersecretpassword"
 ```
-
-## Installation
 
 ```sh
 git clone https://github.com/bingolburak/NetCoreTestAPIController.git
