@@ -7,8 +7,8 @@ namespace TestAPIController.Controllers;
 [ApiController]
 public class AutomatAPIController : ControllerBase
 {
-    [HttpGet("getProjects")]
-    public async Task<IActionResult> GetProjects()
+    [HttpGet("sendMessage")]
+    public async Task<IActionResult> SendMessage()
     {
         try
         {
