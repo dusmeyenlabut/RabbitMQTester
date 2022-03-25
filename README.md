@@ -12,9 +12,6 @@ export RABBITUSERNAME="mysupersecretpassword"
 
 ## Installation
 
-
-```
-
 ```sh
 git clone https://github.com/bingolburak/NetCoreTestAPIController.git
 ```
@@ -29,7 +26,7 @@ dotnet run
 ## Usage
 The service has only one method that is sendMessage
 
-You should call the https://hostname:port/automatapi/v1/getProjects
+You should call the https://hostname:port/automatapi/v1/sendMessage
 
 You should see "Message was published" messege as result.
 
