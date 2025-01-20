@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/rabbitmqtester:latest
+          tags: bingolburak91/rabbitmqtester:latest
